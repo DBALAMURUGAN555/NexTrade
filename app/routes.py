@@ -8,7 +8,7 @@ w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return "Welcome to NexTrade"
 
 @app.route('/add_stock', methods=['POST'])
 def add_stock():
